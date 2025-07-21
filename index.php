@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+<center>
+<h1 class="text text-dark display-5 custom-heading" style="font-family: 'Roboto', sans-serif; font-size: 75px">Personal Portfolio</h1>
+</center>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <ul class="nav spread-nav">
+            <li class="nav-item">
+                <a href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+<center>
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-6">
+                    <img src="assets/rusty.jpg" class="img-fluid rounded-circle" style="height:300px; width:300px;">
+                    </div>
+                    <div class="col-md-6">
+                    <br><br><br><br>
+                    <h2>Rusty Castor</h2>
+                    <h4>IT Support</h4>
+                    </div>
+            </div>
+    </div>
+
+
+
+    <section id="portfolio" class="container">
+
+        <div class="row">
+
+                <div class="col-md-5">
+                <div class="progress-container" style="margin-left: 80px;">
+                    <div class="progress-item">
+                        <span class="progress-label">C++</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Java</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Python</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 55%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">HTML</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 20%;"></div>
+                        </div>
+                    </div>
+      
+                    <div class="progress-item">
+                        <span class="progress-label">Microsoft Office</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">English Proficiency</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-7">
+                <div class="progress-container" style="margin-left: 80px;">
+                    <div class="progress-item">
+                        <span class="progress-label">Typing</span>
+                        <div class="progress-bar">
+                            <p style="color: black;">38-50 wpm</p>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">PHP</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Multimedia</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Leadership</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Planning</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Researching</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+      
+                    <div class="progress-item">
+                        <span class="progress-label">Problem Solving</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="progress-label">Quantitative Proficiency</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="card-black">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">For more information, you can download my Curriculum Vitae below.</p>
+                        <a href="assets/GeneralResume_CastorRusty.pdf" class="btn btn-primary" download>Download Resume</a>
+                    </div>
+                </div>
+        </div>
+
+
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Blogs</h2>
+    <div class="row">
+            <div class="col-md-4">
+                <a href="https://www.tiktok.com/@yhummieol?lang=en"><img src="assets/tiktok.webp" style="height:30px;">
+                <p>@yhummieol</p></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/bladewaltz02"><img src="assets/git.png" style="height:30px;">
+                <p>Bladewaltz</p></a>
+            </div>
+            <!-- Papalitan ko yung email kapag magaapply na ako ng OJT or work -->
+                <div class="col-md-4">
+                    <a href="mailto:rustycastor.basc@gmail.com">
+                        <img src="assets/gmail.webp" style="height:30px;">
+                        <p>rustycastor.basc@gmail.com</p>
+                    </a>
+                </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>Introduction</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <p>I'm Rusty Castor from Purok 3 Nabaong Garlang, San Ildefonso, Bulacan. I'm very interested in data analytics and research on something related to Technology and Medicine. I'am also capable in terms of Digital Media, especially in Photoshop and Krita. I'm also capable in website development especially on layouts and database management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Info</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/phone.png" style="height:30px;">
+                <p>09949279305</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.facebook.com/asi.achii.02?mibextid=ZbWKwL"><img src="assets/fb.png" style="height:30px;">
+                <p>Rusty Castor</p></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://instagram.com/knightingreycc?igshid=MXc1c2U3d3F3eWY4dQ=="><img src="assets/insta.png" style="height:30px;">
+                <p>@KnightInGreyCC</p></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<footer style="color: black;">
+    <h6>Rusty Castor | July 2025</h6>
+</footer>
+</center>
+    <script src="styles/js/bootstrap.min.js"></script>
+</body>
+</html>
